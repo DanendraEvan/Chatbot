@@ -14,7 +14,7 @@ GOOGLE_API_KEY = "AIzaSyAxwloFIqGSiYe-1EdhPT_O1CvJwel2GIs"  # Replace with your 
 
 # Initialize Gemini AI
 genai.configure(api_key=GOOGLE_API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 # Ensure papers directory exists
 os.makedirs(PAPER_DIR, exist_ok=True)
